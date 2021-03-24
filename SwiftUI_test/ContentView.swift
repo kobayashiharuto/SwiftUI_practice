@@ -10,7 +10,10 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     Text("Hello!")
-      .padding(0)
+      .font(.title)
+      .fontWeight(.bold)
+      .foregroundColor(Color.red)
+      .padding(4.0)
     
   }
 }
