@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7625395A2608ECB300BCCC18 /* SwiftUI_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762539592608ECB300BCCC18 /* SwiftUI_testApp.swift */; };
+		7625395A2608ECB300BCCC18 /* Landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762539592608ECB300BCCC18 /* Landmarks.swift */; };
 		7625395C2608ECB300BCCC18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7625395B2608ECB300BCCC18 /* ContentView.swift */; };
 		7625395E2608ECB600BCCC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7625395D2608ECB600BCCC18 /* Assets.xcassets */; };
 		762539612608ECB600BCCC18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762539602608ECB600BCCC18 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		762539562608ECB300BCCC18 /* SwiftUI_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		762539592608ECB300BCCC18 /* SwiftUI_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_testApp.swift; sourceTree = "<group>"; };
+		762539592608ECB300BCCC18 /* Landmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmarks.swift; sourceTree = "<group>"; };
 		7625395B2608ECB300BCCC18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7625395D2608ECB600BCCC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762539602608ECB600BCCC18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		762539582608ECB300BCCC18 /* SwiftUI_test */ = {
 			isa = PBXGroup;
 			children = (
-				762539592608ECB300BCCC18 /* SwiftUI_testApp.swift */,
+				762539592608ECB300BCCC18 /* Landmarks.swift */,
 				7625395B2608ECB300BCCC18 /* ContentView.swift */,
 				7625395D2608ECB600BCCC18 /* Assets.xcassets */,
 				762539622608ECB600BCCC18 /* Info.plist */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7625395C2608ECB300BCCC18 /* ContentView.swift in Sources */,
-				7625395A2608ECB300BCCC18 /* SwiftUI_testApp.swift in Sources */,
+				7625395A2608ECB300BCCC18 /* Landmarks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
