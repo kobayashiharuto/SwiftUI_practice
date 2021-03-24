@@ -12,6 +12,7 @@
 		7625395E2608ECB600BCCC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7625395D2608ECB600BCCC18 /* Assets.xcassets */; };
 		762539612608ECB600BCCC18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762539602608ECB600BCCC18 /* Preview Assets.xcassets */; };
 		76983CDE260B945D00FC6056 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76983CDD260B945D00FC6056 /* CircleImage.swift */; };
+		76983CE1260B959100FC6056 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76983CE0260B959100FC6056 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		762539602608ECB600BCCC18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		762539622608ECB600BCCC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76983CDD260B945D00FC6056 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		76983CE0260B959100FC6056 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				762539592608ECB300BCCC18 /* Landmarks.swift */,
+				76983CE0260B959100FC6056 /* MapView.swift */,
 				7625395B2608ECB300BCCC18 /* ContentView.swift */,
 				76983CDD260B945D00FC6056 /* CircleImage.swift */,
 				7625395D2608ECB600BCCC18 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7625395C2608ECB300BCCC18 /* ContentView.swift in Sources */,
+				76983CE1260B959100FC6056 /* MapView.swift in Sources */,
 				7625395A2608ECB300BCCC18 /* Landmarks.swift in Sources */,
 				76983CDE260B945D00FC6056 /* CircleImage.swift in Sources */,
 			);
