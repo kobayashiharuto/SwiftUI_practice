@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct CategoryHome: View {
-    var body: some View {
-      NavigationView {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-          .navigationTitle("Featured")
-        
+  @EnvironmentObject var modelData: ModelData
+  
+  var body: some View {
+    NavigationView {
+      List {
+        ForEach(modelData.categoris.keys.sorted(), id: \.self) { key in
+          Text(key)
+        }
       }
+      .navigationTitle("Featured")
     }
+  }
 }
 
 struct CategoryHome_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryHome()
-    }
+  static var previews: some View {
+    CategoryHome()
+      .environmentObject(ModelData())
+  }
 }
