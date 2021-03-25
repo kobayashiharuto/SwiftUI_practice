@@ -26,6 +26,7 @@
 		76996B3B260CCBB00061FEBF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76996B3A260CCBB00061FEBF /* Profile.swift */; };
 		76996B40260CCCFE0061FEBF /* ProfilesHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76996B3F260CCCFE0061FEBF /* ProfilesHost.swift */; };
 		76996B44260CCE9E0061FEBF /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76996B43260CCE9E0061FEBF /* ProfileSummary.swift */; };
+		76996B47260CD8B20061FEBF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76996B46260CD8B20061FEBF /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		76996B3A260CCBB00061FEBF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		76996B3F260CCCFE0061FEBF /* ProfilesHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesHost.swift; sourceTree = "<group>"; };
 		76996B43260CCE9E0061FEBF /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		76996B46260CD8B20061FEBF /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				76996B3A260CCBB00061FEBF /* Profile.swift */,
 				76996B43260CCE9E0061FEBF /* ProfileSummary.swift */,
 				76996B3F260CCCFE0061FEBF /* ProfilesHost.swift */,
+				76996B46260CD8B20061FEBF /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				76983CEB260B9E4000FC6056 /* Landmark.swift in Sources */,
 				76983CF4260BA2E200FC6056 /* LandmarkRow.swift in Sources */,
 				76983D06260CB75000FC6056 /* CategoryRow.swift in Sources */,
+				76996B47260CD8B20061FEBF /* ProfileEditor.swift in Sources */,
 				76996B44260CCE9E0061FEBF /* ProfileSummary.swift in Sources */,
 				76983CEE260BA0CC00FC6056 /* ModelData.swift in Sources */,
 			);
