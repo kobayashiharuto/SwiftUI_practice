@@ -20,6 +20,7 @@
 		76983CF7260BA52500FC6056 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76983CF6260BA52500FC6056 /* LandmarkList.swift */; };
 		76983CFA260BAA5300FC6056 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76983CF9260BAA5300FC6056 /* LandmarkDetail.swift */; };
 		76983CFD260CA2AB00FC6056 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76983CFC260CA2AB00FC6056 /* FavoriteButton.swift */; };
+		76983D03260CAD5000FC6056 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76983D02260CAD5000FC6056 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		76983CF6260BA52500FC6056 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		76983CF9260BAA5300FC6056 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		76983CFC260CA2AB00FC6056 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		76983D02260CAD5000FC6056 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				7625395B2608ECB300BCCC18 /* ContentView.swift */,
+				76983D02260CAD5000FC6056 /* CategoryHome.swift */,
 				76983CFF260CA3D100FC6056 /* Landmarks */,
 				76983D00260CA3E500FC6056 /* Helpers */,
 			);
@@ -210,6 +213,7 @@
 				76983CE1260B959100FC6056 /* MapView.swift in Sources */,
 				7625395A2608ECB300BCCC18 /* Landmarks.swift in Sources */,
 				76983CFD260CA2AB00FC6056 /* FavoriteButton.swift in Sources */,
+				76983D03260CAD5000FC6056 /* CategoryHome.swift in Sources */,
 				76983CF7260BA52500FC6056 /* LandmarkList.swift in Sources */,
 				76983CFA260BAA5300FC6056 /* LandmarkDetail.swift in Sources */,
 				76983CDE260B945D00FC6056 /* CircleImage.swift in Sources */,
