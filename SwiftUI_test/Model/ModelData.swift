@@ -10,6 +10,7 @@ import Combine
 
 final class ModelData: ObservableObject {
   @Published var landmarks: [Landmark] = load("landmarkData.json")
+  @Published var profile = Profile.default
   
   var features: [Landmark] {
     landmarks.filter { $0.isFeatured }
